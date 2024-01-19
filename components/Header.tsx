@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import { socials } from "@/constants";
 
 const Header = () => {
@@ -37,15 +36,6 @@ const Header = () => {
           </a>
         ))}
       </div>
-
-      {/* <div className="cv-header__hire flex justify-center items-center">
-        <button
-          type="button"
-          className="bg-gray-300 p-1 rounded-md tex-black px-2 text-sm"
-        >
-          Hire me
-        </button>
-      </div> */}
     </section>
   );
 };
