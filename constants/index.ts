@@ -85,7 +85,7 @@ export const experiences: Experience[] = [
       "Development and implementation of technical works as specified by Client or Project Lead.",
       "Bug fixing and enhancement of an existing Mobile Application software and Store Development Tracking System.",
       "Development of a web application that allows user to create a chat bot.",
-      "Creating of SQL scripts to be executed to change Product Details(ex. price, name) of the largest fastfood chain in the Philippines.",
+      "Creating of SQL scripts to be executed to change Product Details of the largest fast-food chain in the Philippines.",
       "Creating of regular expressions to be used by bots to crawl jobs in the web.",
     ],
     borderClassName: "border-l-8 border-l-green-400",
@@ -101,7 +101,7 @@ export const experiences: Experience[] = [
     tasks: [
       "Development and implementation of technical work as specified by supervisor.",
       "Field implementer for the company's very own accounting system.",
-      "Creating SQL scripts to migrate clients accounting data to the company accounting system database.",
+      "Creating of SQL scripts to migrate clients accounting data to the company accounting system database.",
       "Development of Online Membership Portal.",
       "Development of Online Voting System.",
     ],
