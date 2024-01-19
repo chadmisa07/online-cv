@@ -13,17 +13,16 @@ const Skills = () => {
       <div className="cv-skills__items flex flex-wrap items-center justify-center gap-y-5">
         {skills.map((skill) => (
           <div
-            className="cv-skills__item lg:basis-1/4 md:basis-1/3 basis-1/2 flex flex-col items-center p-2 justify-end gap-y-2"
+            className="cv-skills__item basis-full lg:basis-1/4 md:basis-1/3 sm:basis-1/2  flex flex-col items-center p-2 justify-end gap-y-2"
             key={skill.label}
           >
-            <div className=" h-full w-2/3 flex items-center flex-col p-4 rounded-lg border-2 shadow-lg hover:scale-110">
+            <div className=" h-full md:w-2/3 w-full flex items-center flex-col p-2 py-4 md:p-4 rounded-lg border-2 shadow-lg hover:scale-110">
               <div className="cv-skills__item-icon h-14 flex align-center">
                 <Image
-                  src={`/skills/${skill.icon}.${skill.type || "png"}`}
+                  src={`/skills/${skill.icon}.svg`}
                   alt={skill.label}
                   height={50}
                   width={50}
-                  className="w-auto h-auto"
                 />
               </div>
               <div className="cv-skills__item-label text-gray-500 font-semibold">

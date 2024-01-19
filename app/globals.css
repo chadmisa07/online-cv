@@ -37,3 +37,7 @@ body {
 .tasks {
   list-style-type: disc;
 }
+
+.section {
+  @apply bg-white;
+}

@@ -20,22 +20,22 @@ export const socials: Social[] = [
 ];
 
 export const skills: Skills[] = [
-  { icon: "html", label: "HTML", type: "svg", level: 4 },
-  { icon: "javascript", label: "JavaScript", type: "svg", level: 4 },
-  { icon: "react", label: "React.js", type: "svg", level: 4 },
-  { icon: "css", label: "CSS", type: "svg", level: 4 },
-  { icon: "bootstrap", label: "Bootstrap", type: "svg", level: 4 },
-  { icon: "less", label: "LESS", type: "svg", level: 4 },
-  { icon: "sass", label: "SASS", type: "svg", level: 4 },
-  { icon: "redux", label: "Redux", type: "svg", level: 4 },
-  { icon: "next", label: "Next.js", type: "svg", level: 3 },
-  { icon: "git", label: "Git", type: "svg", level: 4 },
-  { icon: "vs-code", label: "VS Code", type: "svg", level: 4 },
-  { icon: "tailwind", label: "Tailwind CSS", type: "svg", level: 2.5 },
-  { icon: "typescript", label: "TypeScript", type: "svg", level: 2.5 },
-  { icon: "jquery", label: "jQuery", type: "svg", level: 2.5 },
-  { icon: "php", label: "PHP", type: "svg", level: 2 },
-  { icon: "mysql", label: "MySQL", type: "svg", level: 3 },
+  { icon: "html", label: "HTML", level: 4 },
+  { icon: "javascript", label: "JavaScript", level: 4 },
+  { icon: "react", label: "React.js", level: 4 },
+  { icon: "css", label: "CSS", level: 4 },
+  { icon: "bootstrap", label: "Bootstrap", level: 4 },
+  { icon: "less", label: "LESS", level: 4 },
+  { icon: "sass", label: "SASS", level: 4 },
+  { icon: "redux", label: "Redux", level: 4 },
+  { icon: "next", label: "Next.js", level: 3 },
+  { icon: "git", label: "Git", level: 4 },
+  { icon: "vs-code", label: "VS Code", level: 4 },
+  { icon: "tailwind", label: "Tailwind CSS", level: 2.5 },
+  { icon: "typescript", label: "TypeScript", level: 2.5 },
+  { icon: "jquery", label: "jQuery", level: 2.5 },
+  { icon: "php", label: "PHP", level: 2 },
+  { icon: "mysql", label: "MySQL", level: 3 },
 ];
 
 export const experiences: Experience[] = [

@@ -10,8 +10,14 @@ const Connect = () => {
         <a className="text-black flex" href="mailto:chadmisa07@gmail.com">
           <div className="py-4 px-6 border-2 border-transparent rounded-lg flex bg-blue-600">
             <div className=" mr-2">
-              <div className="flex">
-                <Image src="/mail.svg" height={50} width={50} alt="mail" />
+              <div className="flex sm:justify-center">
+                <Image
+                  src="/mail.svg"
+                  height={50}
+                  width={50}
+                  alt="mail"
+                  className="object-contain"
+                />
               </div>
             </div>
             <div className="text-white">
