@@ -8,7 +8,7 @@ const Connect = () => {
     <section className="cv-education__container section !block">
       <div className="section__header">{`Let's work together!`}</div>
       <p className="text-gray-400 mt-4">Reach me out</p>
-      <div className="flex gap-4">
+      <div className="flex gap-4 flex-col sm:flex-row">
         <a className="text-black flex" href="mailto:chadmisa07@gmail.com">
           <div className="py-4 px-6 border-2 border-transparent rounded-lg flex bg-blue-600 hover:bg-blue-700">
             <div className=" mr-2">
