@@ -4,7 +4,7 @@ import Image from "next/image";
 const Connect = () => {
   return (
     <section className="cv-education__container section !block">
-      <div className="section__header">Let's work together!</div>
+      <div className="section__header">{`Let's work together!`}</div>
       <p className="text-gray-400 mt-4">Reach me out</p>
       <div>
         <a className="text-black flex" href="mailto:chadmisa07@gmail.com">
