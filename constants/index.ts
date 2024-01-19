@@ -40,7 +40,7 @@ export const skills: Skills[] = [
 
 export const experiences: Experience[] = [
   {
-    title: "Software Engineer",
+    title: "Sr. Software Engineer",
     date: "Sept 2018 – Jan 2024",
     company: {
       address: "Seattle, WA",
@@ -60,9 +60,9 @@ export const experiences: Experience[] = [
         Wizards of the Coast.`,
       ` Conversion to react-i18next framework for language
         internationalization, code conversions to Functional Components and
-        Hooks, and codebase migrations to Next.js and TypeScript`,
-      "Ensure created features are usable in mobile and web",
-      "Peer review code developed by teammates",
+        Hooks, and codebase migrations to Next.js and TypeScript.`,
+      "Ensure created features are usable in mobile and web.",
+      "Peer review code developed by teammates.",
       "Debugging and bug fixing production issues.",
     ],
     borderClassName: "border-r-8 border-r-blue-400",
@@ -86,7 +86,7 @@ export const experiences: Experience[] = [
       "Bug fixing and enhancement of an existing Mobile Application software and Store Development Tracking System.",
       "Development of a web application that allows user to create a chat bot.",
       "Creating of SQL scripts to be executed to change Product Details(ex. price, name) of the largest fastfood chain in the Philippines.",
-      "Creating of regular expressions to used by bots to crawl jobs in the web.",
+      "Creating of regular expressions to be used by bots to crawl jobs in the web.",
     ],
     borderClassName: "border-l-8 border-l-green-400",
   },
@@ -96,14 +96,14 @@ export const experiences: Experience[] = [
     company: {
       name: "Coredev Solutions Inc.",
       address: "Cebu City",
-      overview: `A software company specializing in Integrated accounting and banking system`,
+      overview: `A software company specializing in integrated accounting and banking system`,
     },
     tasks: [
-      "Development and implementation of technical work as specified by supervisor",
+      "Development and implementation of technical work as specified by supervisor.",
       "Field implementer for the company's very own accounting system.",
       "Creating SQL scripts to migrate clients accounting data to the company accounting system database.",
-      "Development of Online Membership Portal",
-      "Development of Online Voting System",
+      "Development of Online Membership Portal.",
+      "Development of Online Voting System.",
     ],
     borderClassName: "border-r-8 border-r-green-400",
   },
