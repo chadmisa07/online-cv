@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       <div className="cv-header__name flex justify-center items-center">
         <h1 className="font-semibold text-2xl text-black">Chad E. Misa</h1>
-        <p className="text-gray-100 font-normal">&nbsp;| Front-end Developer</p>
+        <p className="text-gray-100 font-normal">&nbsp;| Software Engineer</p>
       </div>
       <div className="cv-header__socials flex justify-center items-center gap-2 mb-2">
         {socials.map((social) => (

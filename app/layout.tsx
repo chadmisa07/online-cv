@@ -4,8 +4,8 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const title = "Chad E. Misa - Front-end Developer";
-const description = `A passionate and innovative front-end developer on a mission to
+const title = "Chad E. Misa - Software Engineer";
+const description = `A passionate and innovative software engineer on a mission to
 transform ideas into captivating digital experiences. With a blend of
 creativity and technical prowess, I thrive in the ever-evolving
 landscape of web development.`;
@@ -31,7 +31,7 @@ export default function RootLayout({
         <meta name="description" content={description} />
         <meta
           name="keywords"
-          content="Front-end Developer, React.JS, ReactJS, Next.js, NextJS, HTML, CSS"
+          content="Front-end Developer, Software Engineer, React.JS, ReactJS, Next.js, NextJS, HTML, CSS, "
         />
         <meta name="author" content="Chad E. Misa"></meta>
 
