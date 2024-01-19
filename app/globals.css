@@ -25,3 +25,21 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.section {
+  @apply flex flex-col p-7 gap-4 border-t-2;
+}
+
+.section__header {
+  @apply text-2xl font-bold mb-2;
+}
+
+.tasks {
+  list-style-type: disc;
+}
+
+/* .cv-header__container {
+  background-image: url("/wallpaper2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
