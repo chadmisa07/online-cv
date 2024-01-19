@@ -5,13 +5,14 @@ import { socials } from "@/constants";
 const Header = () => {
   return (
     <section className="cv-header__container bg-stone-400 w-full rounded-t-lg flex flex-col gap-4 p-7">
-      <div className="cv-header__image rounded-full flex justify-center ">
+      <div className="rounded-full flex justify-center ">
         <Image
           src="/cv-img.jpg"
           width={200}
           height={200}
-          className="rounded-full shadow-xl ring-4 ring-green-400 w-auto h-auto"
+          className="cv-header__image shadow-xl ring-4 ring-green-400 w-auto h-auto"
           alt="CV Image"
+          priority
         />
       </div>
       <div className="cv-header__name flex justify-center items-center">
@@ -25,7 +26,7 @@ const Header = () => {
             target="_blank"
             rel="noreferrer noopener"
             href={social.link}
-            className="transition hover:-translate-y-[4px] ease-in-out"
+            className="transition hover:-translate-y-[4px] ease-in-out duration-150"
           >
             <Image
               src={`/socials/${social.icon}.svg`}

@@ -13,7 +13,7 @@ const WorkExperience = () => {
           return (
             <div
               key={company.name}
-              className={`cv-experience__item border-2 rounded-lg p-4 hover:bg-slate-300 `}
+              className={`cv-experience__item border-2 rounded-lg p-4 hover:bg-slate-300`}
             >
               <h2 className="font-semibold text-lg">{company.name}</h2>
               <p className="text-gray-400">{company.address}</p>
