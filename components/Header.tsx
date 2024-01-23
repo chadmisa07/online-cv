@@ -21,22 +21,25 @@ const Header = () => {
         </p>
       </div>
       <div className="cv-header__socials flex justify-center items-center gap-2">
-        {socials.map((social) => (
-          <a
-            key={social.icon}
-            target="_blank"
-            rel="noreferrer noopener"
-            href={social.link}
-            className="transition hover:-translate-y-[4px] ease-in-out duration-150"
-          >
-            <Image
-              src={`/socials/${social.icon}.svg`}
-              width={25}
-              height={25}
-              alt={social.icon}
-            />
-          </a>
-        ))}
+        {socials.map((social) => {
+          const iconSize = social?.icon === "github" ? 30 : 25;
+          return (
+            <a
+              key={social.icon}
+              target="_blank"
+              rel="noreferrer noopener"
+              href={social.link}
+              className="transition hover:-translate-y-[4px] ease-in-out duration-150"
+            >
+              <Image
+                src={`/socials/${social.icon}.svg`}
+                width={iconSize}
+                height={iconSize}
+                alt={social.icon}
+              />
+            </a>
+          );
+        })}
       </div>
     </section>
   );

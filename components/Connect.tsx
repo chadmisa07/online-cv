@@ -29,7 +29,7 @@ const Connect = () => {
           </div>
         </a>
 
-        <a className="text-black flex" href="/CHAD_MISA_CV_V3.pdf" download>
+        <a className="text-black flex" href="/CHAD_MISA_CV.pdf" download>
           <div className="py-4 px-6 border-2 border-transparent rounded-lg flex bg-slate-300 hover:bg-slate-400">
             <div className=" mr-2">
               <div className="flex sm:justify-center">

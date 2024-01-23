@@ -17,6 +17,10 @@ export const socials: Social[] = [
     icon: "linkedin",
     link: "https://www.linkedin.com/in/chadmisa/",
   },
+  {
+    icon: "github",
+    link: "https://github.com/chadmisa07",
+  },
 ];
 
 export const skills: Skills[] = [
