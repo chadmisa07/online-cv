@@ -28,14 +28,14 @@ export const skills: Skills[] = [
   { icon: "less", label: "LESS", level: 4 },
   { icon: "sass", label: "SASS", level: 4 },
   { icon: "redux", label: "Redux", level: 4 },
-  { icon: "next", label: "Next.js", level: 3 },
+  { icon: "next", label: "Next.js", level: 2.5 },
   { icon: "git", label: "Git", level: 4 },
   { icon: "vs-code", label: "VS Code", level: 4 },
   { icon: "tailwind", label: "Tailwind CSS", level: 2.5 },
   { icon: "typescript", label: "TypeScript", level: 2.5 },
   { icon: "jquery", label: "jQuery", level: 2.5 },
   { icon: "php", label: "PHP", level: 2 },
-  { icon: "mysql", label: "MySQL", level: 3 },
+  { icon: "mysql", label: "MySQL", level: 2.5 },
 ];
 
 export const experiences: Experience[] = [
